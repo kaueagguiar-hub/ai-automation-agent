@@ -39,6 +39,8 @@ Esse projeto simula um sistema real de automação utilizado em empresas para at
 
 ## ⚙️ Funcionalidades
 
+Client → Flask API → Classification Service → Action Service → Logs
+
 ### 📌 Classificação de mensagens
 
 **POST /classify**
@@ -124,7 +126,14 @@ Projeto publicado em ambiente cloud utilizando:
 
 * Render (deploy)
 * GitHub (versionamento)
+---
 
+## Desafios técnicos  
+
+- Input validation
+- Structured logging
+- Cloud deployment
+- API documentation
 ---
 
 ## 📈 Possíveis melhorias
